@@ -1,0 +1,6 @@
+[package]
+name = "259_easy"
+version = "0.1.0"
+authors = ["Federico Giraud <fgiraud@yelp.com>"]
+
+[dependencies]
