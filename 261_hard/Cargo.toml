@@ -1,0 +1,8 @@
+[package]
+name = "261_hard"
+version = "0.1.0"
+authors = ["Federico Giraud <giraud.federico@gmail.com>"]
+
+[dependencies]
+itertools = "0.4"
+time = "0.1"
