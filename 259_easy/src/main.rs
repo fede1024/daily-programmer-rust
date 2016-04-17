@@ -10,7 +10,7 @@ fn create_map() -> HashMap<char, Pos> {
     let iter = "123456789.0".chars().enumerate()
         .map(|(n, c)| { (c, Pos{ x: (n as i32) % 3, y: (n as i32) / 3 } ) });
 
-    return HashMap::<char, Pos>::from_iter(iter)
+    HashMap::<char, Pos>::from_iter(iter)
 }
 
 fn dist(p1: &Pos, p2: &Pos) -> f32 {
