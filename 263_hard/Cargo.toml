@@ -1,0 +1,9 @@
+[package]
+name = "263_hard"
+version = "0.1.0"
+authors = ["Federico Giraud <giraud.federico@gmail.com>"]
+
+[dependencies]
+regex = "0.1"
+time = "0.1"
+clippy = "0.0.63"
